@@ -1,0 +1,12 @@
+Start MongoDB after first installation in Windows
+
+// cd into bin directory of mongodb
+cd "C:\Program Files\MongoDB\Server\3.2\bin"
+
+// Create a directory where MongoDB can store data
+ex --- C:\mongo-data
+
+// run the mongod command in cmd
+mongod.exe --dbpath C:\mongo-data
+
+// CMD should show waiting for connection on port 27017
